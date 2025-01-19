@@ -70,3 +70,4 @@ gem "sassc-rails" # Uncomment this line
 
 # Ption envt
 gem "dotenv-rails"
+gem "cloudinary"

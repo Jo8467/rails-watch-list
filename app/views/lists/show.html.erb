@@ -73,4 +73,9 @@
   </div>
 </div>
 
+<% @list.photos.each do |photo| %>
+  <%= cl_image_tag photo.key, height:300 %>
+<% end %>
+
+
 <%= render "bookmarks/modal", list: @list, bookmark: @bookmark %>
